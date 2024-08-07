@@ -1,5 +1,7 @@
 body {
-    background-color: black;
+    background-image: url(./assets/universe.jpg);
+    background-position: center;
+    background-size: cover;
     height: 130vh;
     width: 130vw;
 }
@@ -58,7 +60,7 @@ label{
     width: 40px;
     height: 40px;
     margin: 10px;
-    animation: spin 89s linear infinite;
+    animation: spin 1s linear infinite;
     position: fixed;
     background-image: url(./assets/mercury.png);
     background-position: center;
@@ -129,7 +131,7 @@ label{
     width: 50px;
     height: 50px;
     margin: 45px;
-    animation: spin 22s  infinite;
+    animation: spin 12s  infinite;
     position: fixed;
     background-position: center;
     background-image: url(./assets/mars.jpeg);
@@ -197,6 +199,8 @@ label{
 .uranus{
     background-color: orangered;
     border-radius: 50%;
+        /* border-top: 16px solid #3498db; Blue */
+
     width: 50px;
     height: 50px;
     margin: 90px;
