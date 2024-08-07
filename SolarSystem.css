@@ -25,11 +25,7 @@ label{
     align-content: center;
 }
 .sun {
-    /* border: 16px solid #f3f3f3; */
-    /* Light grey */
-    background-color: yellow;
-    /* border-left: 6px  solid orangered; */
-    /* Blue */
+
     align-content: center;
 
     border-radius: 50%;
@@ -37,9 +33,10 @@ label{
     height: 120px;
     animation: spin 30s linear infinite;
     position: absolute;
-    background-image: url(./assets/sun.jpg);
-    background-size: 130%;
-    background-position: center;
+    background-image: url(./assets/sun-removebg-preview.png);
+    background-size: 100%;
+    background-size: cover;
+
 }
 .planet-mercury{
     /* background-color: orangered; */
@@ -47,24 +44,25 @@ label{
         
         /* border-top: 16px solid #3498db; Blue */
         border-radius: 50%;
-        width: 200px;
-        height: 200px;
+        width: 160px;
+        height: 160px;
         animation: spin 12.9s linear infinite;
     position: relative;
 }
 .mercury{
-    background-color: orangered;
+    /* background-color: orangered; */
     /* border-left: 6px  solid rgb(235, 228, 225); */
 
     border-radius: 50%;
     width: 40px;
     height: 40px;
-    margin: 10px;
+    margin: 2px;
     animation: spin 1s linear infinite;
     position: fixed;
-    background-image: url(./assets/mercury.png);
+    background-image: url(./assets/mercury-removebg-preview.png);
     background-position: center;
-    background-size: 150%;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .planet-venus{
@@ -73,8 +71,8 @@ label{
         
         /* border-top: 16px solid #3498db; Blue */
         border-radius: 50%;
-        width: 300px;
-        height: 300px;
+        width: 240px;
+        height: 240px;
         animation: spin 30.6s linear infinite;
     position: absolute;
 }
@@ -83,7 +81,7 @@ label{
     border-radius: 50%;
     width: 40px;
     height: 40px;
-    margin: 25px;
+    margin: 15px;
     animation: spin 4s linear infinite;
     position: fixed;
     background-image: url(./assets/venus.jpg);
@@ -97,8 +95,8 @@ label{
         
         /* border-top: 16px solid #3498db; Blue */
         border-radius: 50%;
-        width: 400px;
-        height: 400px;
+        width: 340px;
+        height: 340px;
         animation: spin 30s linear infinite;
     position: absolute;
 }
@@ -107,7 +105,7 @@ label{
     border-radius: 50%;
     width: 50px;
     height: 50px;
-    margin: 35px;
+    margin: 25px;
     animation: spin 35s  infinite;
     position: fixed;
     background-image: url(./assets/earth.jpg);
@@ -120,8 +118,8 @@ label{
         
         /* border-top: 16px solid #3498db; Blue */
         border-radius: 50%;
-        width: 500px;
-        height: 500px;
+        width: 440px;
+        height: 440px;
         animation: spin 93.97s linear infinite;
     position: absolute;
 }
@@ -130,7 +128,7 @@ label{
     border-radius: 50%;
     width: 50px;
     height: 50px;
-    margin: 45px;
+    margin: 40px;
     animation: spin 12s  infinite;
     position: fixed;
     background-position: center;
@@ -144,8 +142,8 @@ label{
         
         /* border-top: 16px solid #3498db; Blue */
         border-radius: 50%;
-        width: 600px;
-        height: 600px;
+        width: 570px;
+        height: 570px;
         animation: spin 45s linear infinite;
     position: absolute;
 }
@@ -174,16 +172,16 @@ label{
     position: absolute;
 }
 .saturn{
-    background-color: orangered;
+    /* background-color: orangered; */
     border-radius: 50%;
     width: 50px;
     height: 50px;
     margin: 75px;
     animation: spin 22s  infinite;
     position: fixed;
-    background-image: url(./assets/saturn.jpg);
+    background-image: url(./assets/saturn-removebg-preview.png);
     background-position: center;
-    background-size: 150%;
+    background-size: 80%;
 }
 .planet-uranus{
     /* background-color: orangered; */
@@ -197,7 +195,7 @@ label{
     position: absolute;
 }
 .uranus{
-    background-color: orangered;
+    /* background-color: orangered; */
     border-radius: 50%;
         /* border-top: 16px solid #3498db; Blue */
 
@@ -206,9 +204,10 @@ label{
     margin: 90px;
     animation: spin 22s  infinite;
     position: fixed;
-    background-image: url(./assets/uranus.jpg);
+    background-image: url(./assets/Uranus.png);
     background-position: center;
-    background-size: 150%;
+    background-size: 90%;
+    background-repeat: no-repeat;
 
 }
 .planet-neptune{
@@ -223,14 +222,14 @@ label{
     position: absolute;
 }
 .neptune{
-    background-color: orangered;
+    /* background-color: orangered; */
     border-radius: 50%;
     width: 50px;
     height: 50px;
     margin: 105px;
     animation: spin 2s  infinite;
     position: fixed;
-    background-image: url(./assets/neptune.jpg);
+    background-image: url(./assets/neptune-removebg-preview.png);
     background-position: center;
     background-size: 150%;
 }
